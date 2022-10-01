@@ -155,7 +155,10 @@ body {
 }
 /* Team */
 
-.team .team-member {
+.team-members {
+background: var(--secondary-background-color)
+}
+.team .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
