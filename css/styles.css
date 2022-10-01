@@ -19,6 +19,7 @@ body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-size: 14px;
 }
 
 .list {
@@ -40,9 +41,12 @@ body {
 
 /* Navigation */
 
+
+.link {
+  text-decoration: none;
+}
 .site-nav .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--tittle-text-color);
@@ -52,13 +56,21 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.link {
+.nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
   text-decoration: none;
 }
+.current {
+  color: var(--accent-color);
+}
+
+
 .contacts .link {
   
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -109,31 +121,38 @@ body {
 
 /* Features */
 
-.features .title {
-  font-weight: 700;
-  font-size: 14px;
+.features .feauture-title {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--tittle-text-color);
 }
 
-.features .text {
-  font-size: 14px;
+.features .feature-text {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--tittle-text-color);
 }
-
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* Team */
 
 .team .team-member {
@@ -147,7 +166,6 @@ body {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 /* Footer Contacts */
@@ -159,6 +177,20 @@ body {
   color: var(--white-color);
 }
 
+
+.footer .address .link {
+  font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .address .location {
+  font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--white-color)
+}
 /* Portfolio. Filter */
 
 .list .filter-button {
@@ -177,7 +209,6 @@ body {
 /* Portfolio. Projects */
 
 .projects-all .project-name {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -187,5 +218,4 @@ body {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
