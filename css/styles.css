@@ -26,7 +26,12 @@ body {
   list-style: none;
 }
 
-/* Logo */
+.link {
+  text-decoration: none;
+}
+
+
+                     /* -------LOGO------- */
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -39,12 +44,9 @@ body {
   color: var(--accent-color);
 }
 
-/* Navigation */
+                     /* -------NAVIGATION------- */
 
 
-.link {
-  text-decoration: none;
-}
 .site-nav .link {
   font-weight: 500;
   line-height: 1.14;
@@ -67,7 +69,6 @@ body {
   color: var(--accent-color);
 }
 
-
 .contacts .link {
   
   font-weight: 500;
@@ -80,7 +81,7 @@ body {
   color: var(--accent-color);
 }
 
-/* Hero */
+                      /* -------HERO------- */
 .hero {
   background-color: var(--hero-background-color);
   width: 1600px;
@@ -119,7 +120,7 @@ body {
   color: var(--white-color);
 }
 
-/* Features */
+                      /* -------FEATURES------- */
 
 .features .feauture-title {
   font-size: 14px;
@@ -154,7 +155,8 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* Team */
+
+                      /* -------TEAM------- */
 
 .team-members {
 background: var(--secondary-background-color)
@@ -172,7 +174,7 @@ background: var(--secondary-background-color)
   letter-spacing: 0.03em;
 }
 
-/* Footer Contacts */
+                      /* -------FOOTER CONTACTS------- */
 
 .footer {
   background-color: var(--hero-background-color);
@@ -180,7 +182,6 @@ background: var(--secondary-background-color)
 .studio {
   color: var(--white-color);
 }
-
 
 .footer .address .link {
   font-size: 14px;
@@ -200,7 +201,7 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--white-color)
 }
-/* Portfolio. Filter */
+                      /* -------PORTFOLIO. FILTER------- */
 
 .list .filter-button {
   background-color: var(--secondary-background-color);
@@ -215,7 +216,8 @@ color: var(--white-color)
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-/* Portfolio. Projects */
+
+                      /* -------PORTFOLIO. PROJECTS------- */
 
 .projects-all .project-name {
   font-size: 18px;
